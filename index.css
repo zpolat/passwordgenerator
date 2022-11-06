@@ -1,0 +1,48 @@
+body {
+   margin: 0;
+   background-color: #273549;
+}
+
+.body {
+   width: 550px;
+   height: 550px;
+   margin-top: 80px;
+   margin-left: 20px;
+   border: 2px solid black;
+   padding: 20px;
+   border-radius: 10px;
+   background-color: yellow;
+}
+
+h1 {
+   margin-bottom: 0px;
+}
+
+p {
+   margin-top: 0px;
+}
+
+button {
+   width: 200px;
+   height: 20px;
+   border: none;
+}
+
+.gen {
+   width: 200px;
+   height: 20;
+   border: none;
+   border-radius: 2px;
+   background-color: wheat;
+   padding: 5px 10px;
+}
+
+.passwords {
+   display: flex;
+   margin-top: 20px;
+   border: none;
+}
+
+#passwordOne {
+   margin-right: 5px;
+}
