@@ -101,11 +101,8 @@ let generateButton = document.getElementById("generate")
 
 generateButton.addEventListener("click", function () {
    for (let i = 0; i < 20; i++) {
-      //   let randomPasswordOne = characters[Math.floor(Math.random() * characters.length)]
-      //   let randomPasswordTwo = characters[Math.floor(Math.random() * characters.length)]
       generatedPasswordOne += randompasswd()
       generatedPasswordTwo += randompasswd()
-      //   console.log(randomPasswordOne)
    }
    passwordOneEl.textContent = generatedPasswordOne
    passwordTwoEl.textContent = generatedPasswordTwo
